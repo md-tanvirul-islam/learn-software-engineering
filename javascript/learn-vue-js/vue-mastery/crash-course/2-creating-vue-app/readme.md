@@ -1,0 +1,3 @@
+* When we created our vue, we pass options object in the ``Vue.createApp()`` function. ``Vue.createApp({})``. **The options object is not optional. At least We need to pass a empty object.** This options object has predefined keys for different purpose.
+
+* After giving all the required settings for our app, we tell Vue.js with the help of ``Vue.mount()`` to show the output in the specific destination  ``Vue.mount('#app')``. The destination is the id named app.
