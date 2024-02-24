@@ -27,7 +27,7 @@ There are countless reasons for learning the fundamental language of the web. He
 
 To be able to use the fundamental web dev language
 To hand-craft beautiful websites instead of relying on tools like Worpress or Wix
-To build web applications
+To build web appblications
 To impress friends
 To have fun 😃
 
