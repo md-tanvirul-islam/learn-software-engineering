@@ -1,0 +1,4 @@
+//react.js
+npx create-react-app@latest
+//next.js
+npx-create-next-app@latest
