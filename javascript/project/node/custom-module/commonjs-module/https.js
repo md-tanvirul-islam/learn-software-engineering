@@ -7,7 +7,7 @@
 // }
 
 const { send } = require('./request.js');
-const { receive } = require('./response');
+const { receive } = require('./response.js');
 
 function communicate() {
     send('What is the name of your country?');
