@@ -1,0 +1,6 @@
+## Module vs Package
+1. Module is a single JS file. Package is collection of modules.
+
+## NPM commands
+1. npm init or npm init -y
+2. npm install axios
