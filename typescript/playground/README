@@ -1,0 +1,14 @@
+When you use `npx`, it allows you to run executables from your project's local `node_modules` without having to install them globally. Here's why you might prefer `npx tsc` over using `npm`:
+
+1. **Local Dependency Execution**: 
+   - `npx tsc` ensures that the `TypeScript` compiler (`tsc`) is run from the local `node_modules` folder if it's installed there, rather than relying on a globally installed version.
+   - This avoids potential version conflicts between a global version of `tsc` and the one specified in your project.
+
+2. **No Need for Global Install**:
+   - If you use `npm`, you'd typically need to install `TypeScript` globally (`npm install -g typescript`) to run `tsc` from the command line without `npx`.
+   - `npx` eliminates this need, letting you use tools directly from `node_modules` without polluting your global environment.
+
+3. **One-off Execution**:
+   - `npx` is handy for running a command that you don't want to install globally. If you just need to use `tsc` temporarily or for a one-time task, `npx` will do the job without adding a global dependency.
+
+So, `npx tsc` is generally preferred for running the TypeScript compiler if it's installed locally in your project.

@@ -1,0 +1,15 @@
+{
+    "name": "tanvir/strategy-pattern",
+    "autoload": {
+        "psr-4": {
+            "Tanvir\\StrategyPattern\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md. Tanvirul Islam",
+            "email": "md.tanvirulislam@outlook.com"
+        }
+    ],
+    "require": {}
+}
