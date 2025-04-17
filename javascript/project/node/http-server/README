@@ -1,0 +1,16 @@
+## What is origin?
+
+URL : https://www.google.com:443/maps
+
+Origin is the combination of three things.
+1. Protocol (HTTP/HTTPS)
+2. Host (www.google.com)
+3. Port (443)
+
+If any of them are changed, the origin is not the same.
+
+** The same origin policy works when staying in an origin(E.g. www.google.com) and trying to get data from another origin (E.g. www.facebook.com) using JavaScript. But post request will work for cross-origin.
+
+## CORS (Cross Origin Resource Sharing)
+
+The **access-control-allow-origin** header in the server decides whether the cross-origin request will be successful or fail. 

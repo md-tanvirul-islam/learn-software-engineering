@@ -1,0 +1,20 @@
+{
+  "name": "learning-3rd-party-packages",
+  "version": "1.0.0",
+  "description": "Test and Learn",
+  "main": "request.js",
+  "scripts": {
+    "start": "node request.js",
+    "dev" : "nodemon request.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTTP"
+  ],
+  "author": "md.tanvirulislam@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "nodemon": "^3.1.0"
+  }
+}
